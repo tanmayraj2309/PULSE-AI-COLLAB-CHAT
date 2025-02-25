@@ -40,7 +40,7 @@ Features
 
 Folder Structure
 
-Backend:
+1. Backend Folder Structure :
 
 ├── controllers/              
 │   ├── aicontroller.js        
@@ -64,8 +64,10 @@ Backend:
 │   └── user.service.js         
 ├── .env                       
 ├── package.json               
-└── server.js                 
-Frontend: 
+└── server.js   
+
+
+2. Frontend Folder Structure: 
 
 ├── auth/                     
 │   └── UserAuth.js            
