@@ -11,7 +11,27 @@ This project is divided into two main folders:
 * Frontend: Contains the React-based user interface and client-side logic.
 
 
+1. Login And Register: 
+![image](https://github.com/user-attachments/assets/25a00c25-c847-4a75-bf3a-4211f0d1f2f1)
+
+![image](https://github.com/user-attachments/assets/109ea6f4-a2e5-45bd-8bca-db81e45a1cc0)
+
+2. Landing Page:
 ![image](https://github.com/user-attachments/assets/0495b940-ebbf-403a-96d9-319b13348d11)
+
+3. Create A New Chat
+![image](https://github.com/user-attachments/assets/c1ff939f-b253-4f02-a961-bab3d6952163)
+
+4. Chat Box:
+![image](https://github.com/user-attachments/assets/7b4d8850-702b-4024-99d4-29e8a1ce8fd8)
+
+5. Chat with Ai:
+
+![image](https://github.com/user-attachments/assets/135e77c6-1bd1-4678-a66e-ee3d7e30ec45)
+
+
+
+
 
 
 Features
