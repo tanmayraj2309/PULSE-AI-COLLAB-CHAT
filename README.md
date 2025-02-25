@@ -40,9 +40,8 @@ Features
 
 Folder Structure
 
-Backend
+Backend:
 
-backend/
 ├── controllers/                
 │   ├── aicontroller.js
 │   ├── projectController.js
@@ -67,9 +66,8 @@ backend/
 ├── package.json
 └── server.js
 
-Frontend
+Frontend: 
 
-frontend/
 ├── auth/
 │   └── UserAuth.js
 ├── config/
@@ -92,7 +90,7 @@ frontend/
 └── vite.config.js
 
 
-Setup Instructions
+******** Setup Instructions  ******
 
 Prerequisites
 
@@ -101,7 +99,7 @@ Prerequisites
 3. Redis: Set up a Redis server for token blacklisting.
 4. Google Generative AI API Key: Obtain an API key from Google.
 
-Backend Setup
+Backend Setup: 
 
 1. Clone the repository:
    git clone <repository-url>
