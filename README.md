@@ -28,21 +28,21 @@ This project is divided into two main folders:
 
 
 
-4. Create A New Chat
+3. Create A New Chat
 
    
 ![image](https://github.com/user-attachments/assets/c1ff939f-b253-4f02-a961-bab3d6952163)
 
 
 
-6. Chat Box:
+4. Chat Box:
 
    
 ![image](https://github.com/user-attachments/assets/7b4d8850-702b-4024-99d4-29e8a1ce8fd8)
 
 
 
-8. Chat with Ai:
+5. Chat with Ai:
    
 
 ![image](https://github.com/user-attachments/assets/135e77c6-1bd1-4678-a66e-ee3d7e30ec45)
