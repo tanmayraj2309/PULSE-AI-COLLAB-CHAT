@@ -233,8 +233,7 @@ Contributing
 2. Create a new branch for your feature or bugfix.
 3. Submit a pull request with a detailed description of your changes.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+
 
 Contact
-For any questions or issues, please open an issue on GitHub or contact the maintainers.
+For any questions or issues, mail: rtanmay52@gmail.com.
