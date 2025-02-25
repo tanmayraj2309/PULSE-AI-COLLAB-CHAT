@@ -10,6 +10,10 @@ This project is divided into two main folders:
 * Backend: Contains the server-side logic, API endpoints, and database models.
 * Frontend: Contains the React-based user interface and client-side logic.
 
+
+![image](https://github.com/user-attachments/assets/0495b940-ebbf-403a-96d9-319b13348d11)
+
+
 Features
 
 1. User Authentication:
