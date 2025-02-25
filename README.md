@@ -42,53 +42,51 @@ Folder Structure
 
 Backend:
 
-├── controllers/                
-│   ├── aicontroller.js
-│   ├── projectController.js
-│   └── user.controller.js
-├── db/
-│   └── db.js
-├── middleware/
-│   └── auth.middleware.js
-├── models/
-│   ├── project.model.js
-│   └── user.model.js
-├── routes/
-│   ├── ai.routes.js
-│   ├── project.route.js
-│   └── user.routes.js
-├── services/
-│   ├── ai.service.js
-│   ├── project.service.js
-│   ├── redis.service.js
-│   └── user.service.js
-├── .env
-├── package.json
-└── server.js
-
+├── controllers/              
+│   ├── aicontroller.js        
+│   ├── projectController.js   
+│   └── user.controller.js    
+├── db/                       
+│   └── db.js                  
+├── middleware/                 
+│   └── auth.middleware.js      
+├── models/                    
+│   ├── project.model.js        
+│   └── user.model.js          
+├── routes/                     
+│   ├── ai.routes.js            
+│   ├── project.route.js       
+│   └── user.routes.js        
+├── services/                   
+│   ├── ai.service.js          
+│   ├── project.service.js      
+│   ├── redis.service.js      
+│   └── user.service.js         
+├── .env                       
+├── package.json               
+└── server.js                 
 Frontend: 
 
-├── auth/
-│   └── UserAuth.js
-├── config/
-│   ├── axios.js
-│   ├── socket.js
-│   └── webcontainer.js
-├── context/
-│   └── user.context.js
-├── routes/
-│   └── AppRoutes.js
-├── screens/
-│   ├── Home.jsx
-│   ├── Login.jsx
-│   ├── Logout.jsx
-│   ├── Project.jsx
-│   └── Register.jsx
-├── .env
-├── index.html
-├── package.json
-└── vite.config.js
-
+├── auth/                     
+│   └── UserAuth.js            
+├── config/                   
+│   ├── axios.js                
+│   ├── socket.js             
+│   └── webcontainer.js       
+├── context/                  
+│   └── user.context.js         
+├── routes/                    
+│   └── AppRoutes.js            
+├── screens/                   
+│   ├── Home.jsx              
+│   ├── Login.jsx              
+│   ├── Logout.jsx              
+│   ├── Project.jsx             
+│   └── Register.jsx           
+├── .env                       
+├── index.html                 
+├── package.json              
+└── vite.config.js             
 
 ******** Setup Instructions  ******
 
