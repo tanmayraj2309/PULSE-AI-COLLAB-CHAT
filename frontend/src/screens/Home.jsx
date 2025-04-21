@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import Logout from './Logout';
 
 const Home = () => {
-    const { user } = useContext(UserContext);
+    const { user ,setUser} = useContext(UserContext);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [projectName, setProjectName] = useState('');
     const [projects, setProjects] = useState([]);
@@ -23,12 +23,18 @@ const Home = () => {
             setProjects([...projects, res.data.project]); // Update local state with new project
             setIsModalOpen(false);
             setProjectName(''); // Clear the input
+            window.location.reload();
         } catch (error) {
             console.error(error);
         }
     }
 
     useEffect(() => {
+        const user=localStorage.getItem('userData');
+        if( user){
+            setUser(user);
+        }
+        
         axios.get('/projects/all')
             .then(res => setProjects(res.data.projects))
             .catch(err => console.error(err));
@@ -52,9 +58,12 @@ const Home = () => {
                 </button>
             </div>
 
+
+
             <h1 className="text-6xl font-extrabold mb-10 text-center bg-gradient-to-r from-pink-500 to-cyan-500 bg-clip-text text-transparent">
                 PULSE AI CHAT
             </h1>
+
             <h2 className="text-3xl font-semibold mb-8">Welcome, {user.name}!</h2>
             <h3 className="text-xl font-semibold mb-8">User Guide: @ai for chat with AI {user.name}!</h3>
 
@@ -66,14 +75,14 @@ const Home = () => {
                     <i className="ri-link ml-2"></i>
                 </button>
 
-                {projects.map(project => (
-                    <div key={project._id}
+                {projects.length>0 && projects.map(project => (
+                    <div key={project?._id}
                         onClick={() => navigate(`/project`, { state: { project } })}
                         className="project flex flex-col gap-2 cursor-pointer p-6 border border-gray-700 rounded-md bg-gray-800 shadow-lg hover:bg-gray-700 transition duration-200">
-                        <h2 className='font-semibold'>{project.name}</h2>
+                        <h2 className='font-semibold'>{project?.name}</h2>
                         <div className="flex gap-2">
                             <p><small><i className="ri-user-line"></i> Collaborators</small>:</p>
-                            {project.users.length}
+                            {project?.users.length}
                         </div>
                     </div>
                 ))}
